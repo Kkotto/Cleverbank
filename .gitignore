@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Application ###
+src/main/resources/application.properties
+.idea/
