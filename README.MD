@@ -47,3 +47,8 @@ jdbc.user=postgres
 jdbc.password=postgresql
 jdbc.database=clever_bank
 ```
+
+3. База данных с указанным в application.properties именем создается
+   автоматически. [Перейти к Java-конфигурации базы данных.](src%2Fmain%2Fjava%2Fcom%2Fkkotto%2Fcleverbank%2Fconfig%2FDatabaseConfiguration.java)
+4. Таблицы, указанные в [условии](#база-данных), создаются
+   автоматически. [Перейти к Java-конфигурации таблиц.](src%2Fmain%2Fjava%2Fcom%2Fkkotto%2Fcleverbank%2Fconfig%2FTablesConfiguration.java)
